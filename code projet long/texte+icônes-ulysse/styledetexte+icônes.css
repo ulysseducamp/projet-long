@@ -1,0 +1,148 @@
+:root{
+  --noir: #000000;
+
+  --title_size_h1: 20px;
+  --title_size_h2: 20px;
+  --title_size_h3: 16px;
+  --title_size_h4: 14px;
+
+  --texte_color: #444444;
+
+  --ic-color: #AAAAAA;
+  --primary-color: #DF5148;
+}
+
+.Title_1 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: var(--title_size_h1);
+    text-transform: uppercase;
+    color: var(--texte_color);
+  }
+  
+.Title_2 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: var(--title_size_h2);
+    color: var(--texte_color);
+  }
+  
+.Title_3 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: var(--title_size_h3);;
+    color: var(--texte_color);
+  }
+  
+.Title_4 {
+    font-family: 'Varela Round', sans-serif;
+    font-size: var(--title_size_h4);
+    color: var(--noir);
+  }
+  
+.texte-courant {
+  font-family: 'Varela Round', sans-serif;
+  font-size: var(--title_size_h4);
+  color: var(--texte_color);
+}
+
+.ic-disco_unactive {
+  background: white
+  url("img/ic-sprite.svg") 0px 0px;
+  width: 26px;
+  height: 26px; 
+}
+.ic-disco_active {
+  background: white
+  url("img/ic-sprite.svg") 0px -54px;
+  width: 26px;
+  height: 26px; 
+}
+
+.ic-read_unactive {
+  background: white
+  url("img/ic-sprite.svg") -27px 0px;
+  width: 26px;
+  height: 26px; 
+}
+.ic-read_active {
+  background: white
+  url("img/ic-sprite.svg") -27px -54px;
+  width: 26px;
+  height: 26px; 
+}
+
+.ic-search_unactive {
+  background: white
+  url("img/ic-sprite.svg") -54px 0px;
+  width: 26px;
+  height: 26px; 
+}
+.ic-search_active {
+  background: white
+  url("img/ic-sprite.svg") -54px -54px;
+  width: 26px;
+  height: 26px;
+}
+
+.ic-perso_unactive {
+  background: white
+  url("img/ic-sprite.svg") -81px 0px;
+  width: 26px;
+  height: 26px; 
+}
+.ic-perso_active {
+  background: white
+  url("img/ic-sprite.svg") -81px -54px;
+  width: 26px;
+  height: 26px;
+}
+
+.ic-tog-open_unactive {
+  background: white
+  url("img/ic-sprite.svg") 0px -27px;
+  width: 26px;
+  height: 26px; 
+}
+.ic-tog-open_active {
+  background: white
+  url("img/ic-sprite.svg") 0px -81px;
+  width: 26px;
+  height: 26px;
+}
+
+.ic-tog-closed_unactive {
+  background: white
+  url("img/ic-sprite.svg") -27px -27px;
+  width: 26px;
+  height: 26px; 
+}
+.ic-tog-closed_active {
+  background: white
+  url("img/ic-sprite.svg") -27px -81px;
+  width: 26px;
+  height: 26px;
+}
+
+.ic-prev_unactive {
+  background: white
+  url("img/ic-sprite.svg") -54px -27px;
+  width: 26px;
+  height: 26px; 
+}
+.ic-prev_active {
+  background: white
+  url("img/ic-sprite.svg") -54px -81px;
+  width: 26px;
+  height: 26px;
+}
+
+.ic-param_unactive {
+  background: white
+  url("img/ic-sprite.svg") -81px -27px;
+  width: 26px;
+  height: 26px; 
+}
+.ic-param_active {
+  background: white
+  url("img/ic-sprite.svg") -81px -81px;
+  width: 26px;
+  height: 26px;
+}
