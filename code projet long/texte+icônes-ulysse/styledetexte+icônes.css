@@ -20,12 +20,41 @@
   --background-color: #FAFAFA;
 }
 
+body{
+  margin: 28px;
+}
+
+/* code page découverte */
+
+.block{
+  width: 100%;
+  background: var(--block-color);
+  text-align: center;
+  padding: 30px;
+  padding-bottom: 0px;
+}
+
+
 /*search block */
 .search-bar{
   background-color: var(--block-color);
   width: 100%;
+  border-radius: 20px;
+  margin-bottom: 36px;
+}
+.search-bar .texte-courant{
+  color: var(--ic-color);
+  margin-bottom: 0;
 }
 
+.search-bar .ic-search_unactive{
+  margin: 6px;
+}
+
+.search-bar__block{
+  display: inline-block;
+  vertical-align: middle;
+}
 
 /*système pour les sections du haut*/
 
@@ -85,6 +114,7 @@
     font-size: var(--title_size_h1);
     text-transform: uppercase;
     color: var(--texte_color);
+    margin-bottom: 12px;
   }
   
 .Title_2 {
@@ -109,6 +139,8 @@
   font-family: 'Varela Round', sans-serif;
   font-size: var(--title_size_h4);
   color: var(--texte_color);
+  margin-bottom: 18px;
+
 }
 
 .ic-disco_unactive {
@@ -213,4 +245,87 @@
   url("img/ic-sprite.svg") -81px -81px;
   width: 26px;
   height: 26px;
+}
+
+/* boutons marie */
+:root{
+  --primary-color: #DF5148;
+  --secondcouleur: #FFFFFF;
+  --troisiemecouleur: #444444;
+}
+
+
+.btn--primary{
+background-color:var(--primary-color); 
+font-family:'Varela Round', sans-serif;
+color: var(--secondcouleur);
+font-size: 14px;
+padding: 0.5rem; 
+border-radius: 10px; 
+border:var(--primary-color) solid 1px;
+margin: 0.25rem; 
+}
+
+.btn--full--width{
+  width: 100%; 
+}
+
+.btn--primary:active{
+background-color:var(--secondcouleur); 
+font-family:'Varela Round', sans-serif;
+color:var(--primary-color);
+font-size: 14px;
+padding: 0.5rem; 
+border-radius: 10px; 
+border:var(--primary-color) solid 1px;
+border-width: 2px;
+margin: 0.25rem;
+}
+
+
+a{
+  color:var(--primary-color);
+}
+
+a:active{
+  color:var(--troisiemecouleur);
+}
+
+.btn--secondary{
+  background-color:var(--secondcouleur);
+  font-family:'Varela Round', sans-serif;
+  color:var(--primary-color);
+  font-size: 14px;
+  padding: 0.5rem; 
+  border-radius: 10px; 
+  border:var(--primary-color) solid 1px;
+  margin: 0.25rem;
+  margin-bottom: 18px;
+}
+
+.btn--secondary:active{
+  background-color:var(--secondcouleur);
+  font-family:'Varela Round', sans-serif;
+  color:var(--troisiemecouleur);
+  font-size: 14px;
+  padding: 0.5rem; 
+  border-radius: 10px; 
+  border:var(--troisiemecouleur) solid 1px;
+  margin: 0.25rem;
+}
+
+
+/* ajout Ulysse */
+.section-btn {
+  text-decoration: none; 
+  color:var(--troisiemecouleur);
+  font-family:'Varela Round', sans-serif;
+  font-size: 16px;
+}
+
+.section-btn:active {
+  text-decoration: none; 
+  color:var(--primary-color);
+  font-family:'Varela Round', sans-serif;
+  font-size: 16px;
 }
