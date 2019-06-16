@@ -16,8 +16,16 @@
 
   --ic-color: #AAAAAA;
   --primary-color: #DF5148;
+  --block-color: #F2F2F2;
   --background-color: #FAFAFA;
 }
+
+/*search block */
+.search-bar{
+  background-color: var(--block-color);
+  width: 100%;
+}
+
 
 /*système pour les sections du haut*/
 
@@ -104,104 +112,104 @@
 }
 
 .ic-disco_unactive {
-  background: white
+  background: transparent
   url("img/ic-sprite.svg") 0px 0px;
   width: 26px;
   height: 26px; 
 }
 .ic-disco_active {
-  background: white
+  background: transparent
   url("img/ic-sprite.svg") 0px -54px;
   width: 27px;
   height: 27px; 
 }
 
 .ic-read_unactive {
-  background: white
+  background: transparent
   url("img/ic-sprite.svg") -27px 0px;
   width: 26px;
   height: 26px;
 }
 .ic-read_active {
-  background: white
+  background: transparent
   url("img/ic-sprite.svg") -27px -54px;
   width: 26px;
   height: 26px; 
 }
 
 .ic-search_unactive {
-  background: white
+  background: transparent
   url("img/ic-sprite.svg") -54px 0px;
   width: 26px;
   height: 26px; 
 }
 .ic-search_active {
-  background: white
+  background: transparent
   url("img/ic-sprite.svg") -54px -54px;
   width: 26px;
   height: 26px;
 }
 
 .ic-perso_unactive {
-  background: white
+  background: transparent
   url("img/ic-sprite.svg") -81px 0px;
   width: 26px;
   height: 26px; 
 }
 .ic-perso_active {
-  background: white
+  background: transparent
   url("img/ic-sprite.svg") -81px -54px;
   width: 26px;
   height: 26px;
 }
 
 .ic-tog-open_unactive {
-  background: white
+  background: transparent
   url("img/ic-sprite.svg") 0px -27px;
   width: 26px;
   height: 26px; 
 }
 .ic-tog-open_active {
-  background: white
+  background: transparent
   url("img/ic-sprite.svg") 0px -81px;
   width: 26px;
   height: 26px;
 }
 
 .ic-tog-closed_unactive {
-  background: white
+  background: transparent
   url("img/ic-sprite.svg") -27px -27px;
   width: 26px;
   height: 26px; 
 }
 .ic-tog-closed_active {
-  background: white
+  background: transparent
   url("img/ic-sprite.svg") -27px -81px;
   width: 26px;
   height: 26px;
 }
 
 .ic-prev_unactive {
-  background: white
+  background: transparent
   url("img/ic-sprite.svg") -54px -27px;
   width: 26px;
   height: 26px; 
 }
 .ic-prev_active {
-  background: white
+  background: transparent
   url("img/ic-sprite.svg") -54px -81px;
   width: 26px;
   height: 26px;
 }
 
 .ic-param_unactive {
-  background: white
+  background: transparent
   url("img/ic-sprite.svg") -81px -27px;
   width: 26px;
   height: 26px; 
 }
 .ic-param_active {
-  background: white
+  background: transparent
   url("img/ic-sprite.svg") -81px -81px;
   width: 26px;
   height: 26px;
